@@ -2,19 +2,13 @@
 
 ---
 
-## Bug yang Diketahui
-
-Tombol **Run** dan **Reset** masih memiliki bug — harus diklik **2 kali** agar berfungsi dengan baik.
-
-(Sedang dalam perbaikan, gunakan klik dua kali sementara ini)
-
----
-
 ## Plugin & Behavior yang Diperlukan
 
 ### Wajib
 
 - **Plugin:** JSON for Construct 2 → dari _FrenchYann/JSON_for_construct2_
+- **Plugin** HTML Element for Construct 2 → skwp (Not Implemented Yet)
+- **Behavior** Tween for Construct 2 → skwp (Not Implemented Yet)
 - **Behavior:** rex*moveTo → \_Rex Rainbow Plugins*
 - **Behavior:** rex*rotateTo → \_Rex Rainbow Plugins*
 - **Plugin:** rex*tagtext → \_Rex Rainbow Plugins*
@@ -45,7 +39,7 @@ C:\Program Files\Construct 2\
 4. **Instal semua plugin Rex** via repository v3 atau ZIP.
 5. **Buka Construct 2** → File → Open → pilih _CodeOwl.capx_
 6. Tekan **Run layout** (atau **Ctrl+F5** )
-7. Klik tombol **Run** atau **Reset** _(ingat: klik 2 kali karena bug sementara)_
+7. Klik tombol **Run** atau **Reset**
 
 ---
 
@@ -59,7 +53,16 @@ C:\Program Files\Construct 2\
    C:\Program Files\Construct 2\exporters\html5\plugins\
    ```
 
-4. Restart Construct 2 → plugin akan otomatis terdeteksi.
+4. Restart Construct 2.
+
+---
+
+## Instalasi Plugin HTML Element for Construct 2
+
+1. Buka: [HTML Element](https://sakewp.itch.io/c2p-html-element) dan [Tween](https://sakewp.itch.io/c2b-tweent).
+2. Download htmlelement(v1.1).c2addon dan tween.c2addon.
+3. Drag dan Drop ke aplikasi Construct 2.
+4. Restart Construct 2.
 
 ---
 
